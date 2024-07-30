@@ -57,6 +57,8 @@ Uma ferramenta de captura de tela que permite ao usuário selecionar uma área d
 
 ## Uso
 
+### Usando o Script Python
+
 1. Execute o script Python:
     ```sh
     python printOCR.py
@@ -65,6 +67,14 @@ Uma ferramenta de captura de tela que permite ao usuário selecionar uma área d
 2. Selecione a área da tela que deseja capturar.
 3. Após a captura, o texto reconhecido será exibido em uma janela auxiliar.
 4. Use os botões para salvar o texto na área de transferência ou tentar a captura novamente.
+
+### Usando o Executável (Windows)
+
+1. Navegue até o diretório `build/exe.win32-3.9` ou `build/exe.win-amd64-3.9` (dependendo da arquitetura do seu sistema).
+2. Execute o arquivo `printOCR.exe`.
+3. Selecione a área da tela que deseja capturar.
+4. Após a captura, o texto reconhecido será exibido em uma janela auxiliar.
+5. Use os botões para salvar o texto na área de transferência ou tentar a captura novamente.
 
 ---
 
@@ -127,6 +137,8 @@ A screen capture tool that allows the user to select an area of the screen for c
 
 ## Usage
 
+### Using the Python Script
+
 1. Run the Python script:
     ```sh
     python printOCR.py
@@ -135,3 +147,11 @@ A screen capture tool that allows the user to select an area of the screen for c
 2. Select the area of the screen you want to capture.
 3. After capturing, the recognized text will be displayed in an auxiliary window.
 4. Use the buttons to save the text to the clipboard or retry the capture.
+
+### Using the Executable (Windows)
+
+1. Navigate to the `build/exe.win32-3.9` or `build/exe.win-amd64-3.9` directory (depending on your system architecture).
+2. Run the `printOCR.exe` file.
+3. Select the area of the screen you want to capture.
+4. After capturing, the recognized text will be displayed in an auxiliary window.
+5. Use the buttons to save the text to the clipboard or retry the capture.
