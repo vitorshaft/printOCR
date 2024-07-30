@@ -24,8 +24,8 @@ Uma ferramenta de captura de tela que permite ao usuário selecionar uma área d
 
 1. Clone este repositório:
     ```sh
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
-    cd nome-do-repositorio
+    git clone https://github.com/vitorshaft/printOCR.git
+    cd printOCR
     ```
 
 2. Instale as dependências:
@@ -44,7 +44,7 @@ Uma ferramenta de captura de tela que permite ao usuário selecionar uma área d
 
 1. Execute o script Python:
     ```sh
-    python screen_capture.py
+    python printOCR.py
     ```
 
 2. Selecione a área da tela que deseja capturar.
@@ -79,8 +79,8 @@ A screen capture tool that allows the user to select an area of the screen for c
 
 1. Clone this repository:
     ```sh
-    git clone https://github.com/your-username/repository-name.git
-    cd repository-name
+    git clone https://github.com/vitorshaft/printOCR.git
+    cd printOCR
     ```
 
 2. Install the dependencies:
@@ -99,7 +99,7 @@ A screen capture tool that allows the user to select an area of the screen for c
 
 1. Run the Python script:
     ```sh
-    python screen_capture.py
+    python printOCR.py
     ```
 
 2. Select the area of the screen you want to capture.
