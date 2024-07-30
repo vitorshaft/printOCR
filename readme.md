@@ -40,6 +40,21 @@ Uma ferramenta de captura de tela que permite ao usuário selecionar uma área d
         sudo apt-get install tesseract-ocr
         ```
 
+4. Configure o caminho do Tesseract nas variáveis de ambiente:
+    - Windows:
+        1. Adicione o caminho do executável do Tesseract (por exemplo, `C:\Program Files\Tesseract-OCR`) às variáveis de ambiente do sistema.
+        2. Adicione a variável de ambiente `TESSDATA_PREFIX` com o valor `C:\Program Files\Tesseract-OCR\tessdata`.
+
+    - Linux:
+        1. Adicione o caminho do executável do Tesseract ao `PATH`:
+            ```sh
+            export PATH=$PATH:/usr/local/bin/tesseract
+            ```
+        2. Adicione a variável de ambiente `TESSDATA_PREFIX`:
+            ```sh
+            export TESSDATA_PREFIX=/usr/local/share/tessdata
+            ```
+
 ## Uso
 
 1. Execute o script Python:
@@ -94,6 +109,21 @@ A screen capture tool that allows the user to select an area of the screen for c
         ```sh
         sudo apt-get install tesseract-ocr
         ```
+
+4. Set up Tesseract in environment variables:
+    - Windows:
+        1. Add the path to the Tesseract executable (e.g., `C:\Program Files\Tesseract-OCR`) to the system environment variables.
+        2. Add the environment variable `TESSDATA_PREFIX` with the value `C:\Program Files\Tesseract-OCR\tessdata`.
+
+    - Linux:
+        1. Add the path to the Tesseract executable to the `PATH`:
+            ```sh
+            export PATH=$PATH:/usr/local/bin/tesseract
+            ```
+        2. Add the environment variable `TESSDATA_PREFIX`:
+            ```sh
+            export TESSDATA_PREFIX=/usr/local/share/tessdata
+            ```
 
 ## Usage
 
